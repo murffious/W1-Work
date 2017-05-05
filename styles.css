@@ -1,94 +1,117 @@
-body {
-    background-color: white;
-    font: 13px/1.5 sans-serif;
-    margin: 0.3em 0;
-
+.jumbo-wrapper {
+    height: 520px;
+    width: 100%;
+    background-image: url("/img/wot-masthead-dark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
-.opening {
-    
-    padding: 9.750px 19.500px 9.750px 19.50px;
-    
-}
-p {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-section {
-    font-family: sans-serif;
-    font-szie: 20px;
-    text-align: justify;
-    vertical-align: top;
-    width: 70%;
-    font-size: 150%;
-    margin: 0 auto;
-    padding: .5em 1em;
-}
-
-.welcome {
-    text-align: right;
-}
-div {
-    display: block;
-    margin: 17px;
-}
-.otherprojects {
-    font-weight: bold;
-    margin: 1.5em auto;
-    text-align: left;
-    vertical-align: middle;
-    width: 90%;
-    max-width: 700px;
+.main-header-wrapper {
+    width: 100%;
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: stretch;
-	align-content: stretch;
+    padding-top: 30px;
+    padding-left: 30px;
 }
-.otherprojects-item {
-    height: 175px;
-    min-width: 150px;
-    max-width: 300px;
-    line-height: 175px;
-}
-.otherprojects-item {
-    /*float: left;*/
-    
-    height: 60px;
-    min-width: 12em;
-    width: 24.75%;
-    line-height: 60px;
-}
-.otherprojects-item a, .otherprojects-item .icon {
-    width: 150px;
-}
-
-.otherprojects-item a {
-    display: block;
-    width: 10em;
-    margin: 0 auto;
-}
-a, a:active, a:focus {
-    unicode-bidi: embed;
-    white-space: nowrap;
-    outline: 0;
-    color: #0645AD;
+.nav-menu {
+    display: flex;
     text-decoration: none;
+    list-style-type: none;
+    float: right;
+    font-family: 'Lato', sans-serif;
+     color: #F0F0F0;
 }
-.footer {
-    text-align: center;
+.left-header-container {
+    align-items: center;
+    width: 50%;
+}
+li a {
+    color: #F0F0F0;
+}
+.title-container {
+    margin-right: 140px;
+    margin-left: 140px;
+    padding-top: 120px; 
+}
+.subtext-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+#centerlower-text {
+    font-size: 18px;
+}
+.bar1 {
+    width: 85px;
+    height: 8.5px;
+    background: white;
+}
+.bar2 {
+    width: 85px;
+    height: 8.5px;
+    background: white;
+}
+li {
+    margin: 8px;
+    
+}
+#center-website-description {
+    font-weight:normal;
+    font-style: normal;
+
+}
+.big-workshop {
+    font-size: 155px;
+    
+    
+}
+.your-digital {
+
+}
+h2 {
+    color: white;
+    font-family: "Oswald";
+}
+.solutions {
+    color:#ff803a;
+}
+.ideas {
+    color: #bdd436;
+}
+.jumbo-btn{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
     width: 70%;
-    margin: 10px auto;
-    border-top: .5px solid #aaa;
+    height: 50px;
+    text-align: center;
+    border-radius:28px;
+    background-color: #C8E23A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.footer ul, .footer ul li {
-    display: inline;
-    padding: 0;
-    margin: 0 10px;
+.first-non-title-section {
+    height: 448px;
+    width: 100%;
+    background-color: #F0F0F0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line height: 36px !important;
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+    flex-direction: column;
+    /*padding-left: 75px;*/
+    /*padding-right: 75px;*/
 }
-.icon img {
-   
+.paragraph2 {
+    color: #6a787c;
+}
+.works {
+    color: #BDD436;
+}
+@ media screen and (max-width: 700px) {
+    
 }
